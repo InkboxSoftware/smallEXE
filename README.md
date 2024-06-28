@@ -13,6 +13,8 @@ The assembled program can be run as normal, either by double clicking the icon o
 If there was no large blue box stating that "This app can't run on your PC" then it was executed correctly (this program has no visual output).
 
 ## Doomsday - A small Console Game
+Press **Enter** to start or restart
+
 To compile with MASM:
 ```
 ml doomsday.asm /link /NOLOGO /NODEFAULTLIB /SUBSYSTEM:CONSOLE /ENTRY:START /MERGE:.rdata=. /MERGE:.pdata=. /MERGE:.text=. /SECTION:.,ER /ALIGN:16 kernel32.lib Advapi32.lib
