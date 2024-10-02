@@ -13,7 +13,9 @@ The assembled program can be run as normal, either by double clicking the icon o
 If there was no large blue box stating that "This app can't run on your PC" then it was executed correctly (this program has no visual output).
 
 ## Doomsday - A small Console Game
+
 Press **Enter** to start or restart
+![QR](https://github.com/user-attachments/assets/82fc171b-a0c3-417d-938b-18308fd1d841)
 
 To compile with MASM:
 ```
@@ -27,6 +29,8 @@ crinkler.exe /NODEFAULTLIB /ENTRY:START /SUBSYSTEM:CONSOLE /TINYHEADER /NOINITIA
 **Note:** these compressed programs created by Crinkler may trigger your anti-virus software, that's normal. 
 
 ## Small Piano - World's Smallest Piano App
+![QRpiano](https://github.com/user-attachments/assets/961122d5-3e64-4190-a78b-7d59225cd7db)
+
 To compile with MASM:
 ```
 ml piano.asm /link /NOLOGO /NODEFAULTLIB /SUBSYSTEM:CONSOLE /ENTRY:START /MERGE:.rdata=. /MERGE:.pdata=. /MERGE:.text=. /SECTION:.,ER /ALIGN:16 kernel32.lib
